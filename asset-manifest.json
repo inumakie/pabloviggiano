@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pabloviggiano/static/css/main.c1d67b1a.css",
+    "main.js": "/pabloviggiano/static/js/main.6a56811d.js",
+    "static/media/yuestore.png": "/pabloviggiano/static/media/yuestore.417fe11f0cde0d164875.png",
+    "static/media/iptracker.png": "/pabloviggiano/static/media/iptracker.f34761f20b47416ffb90.png",
+    "static/media/baseapparel.png": "/pabloviggiano/static/media/baseapparel.dde54e98541c0ab71e41.png",
+    "static/media/fylo.png": "/pabloviggiano/static/media/fylo.50ad377bbec8f5197e5c.png",
+    "static/media/pablo.png": "/pabloviggiano/static/media/pablo.53594b8f73f4e4aa1b16.png",
+    "static/media/huddle.png": "/pabloviggiano/static/media/huddle.e83947909cae4249f42b.png",
+    "static/media/light.svg": "/pabloviggiano/static/media/light.f4f6cf503e42c3c0806b16ef41627c55.svg",
+    "index.html": "/pabloviggiano/index.html",
+    "static/media/dark.svg": "/pabloviggiano/static/media/dark.bceb5c96fea54d3604ba95ea2d23137e.svg",
+    "static/media/link.svg": "/pabloviggiano/static/media/link.f3047d044b7175ad28b96abed2568cdb.svg",
+    "static/media/email.svg": "/pabloviggiano/static/media/email.5a387e74dbef285fe81a3cd40ea170b5.svg",
+    "static/media/arrow.svg": "/pabloviggiano/static/media/arrow.1edc6ffebaf7e649a02a210703f17bb7.svg",
+    "static/media/menu.svg": "/pabloviggiano/static/media/menu.113d59e2703636dfe157ec8ec962d598.svg",
+    "main.c1d67b1a.css.map": "/pabloviggiano/static/css/main.c1d67b1a.css.map",
+    "main.6a56811d.js.map": "/pabloviggiano/static/js/main.6a56811d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1d67b1a.css",
+    "static/js/main.6a56811d.js"
+  ]
+}

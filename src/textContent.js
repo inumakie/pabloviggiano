@@ -7,8 +7,8 @@ const textContent = {
   
       about: 'About me',
       aboutText: `I am a self-taught full stack web developer from Buenos Aires, Argentina.
-      I have experience as a freelance developer and now I'm looking forwards to working in a company.
-      I specialize in frontEnd, building clean + simple user interfaces based on responsive design which makes the content look good on any screen size.
+      I have 2 years of experience as a freelance developer and now I'm looking forwards to working with a company.
+      I specialize in frontEnd, building clean + simple user interfaces based on responsive design which makes the content look good on any screen size. I also know Back End technologies and I'm currently learning frameworks for building Mobile apps.
       I'm skilled at research -as self-learning requires- so, when I don't know something, I go find resources and learn it. I speak English and Spanish (+ currently learning Mandarin).`,
   
       skills: 'Skills',
@@ -68,9 +68,10 @@ const textContent = {
     
         about: 'Sobre mi',
         aboutText: `Soy un programador full stack autodidacta de Buenos Aires, Argentina.
-        Tengo experiencia como desarrollador freelance y ahora me interesa trabajar en una empresa.
-        Me especializo en front end, desarrollando interfaces prolijas y simples con enfoque en diseños responsivos que garanticen que la página se vea bien en cualquier dispositivo.
-        Soy hábil buscando información -como lo requiere el ser autodidacta-. Cuando no se algo, busco recursos y lo aprendo. Hablo inglés y español (+estoy aprendiendo Mandarín).`,
+        Tengo 2 años de experiencia como desarrollador web freelance y ahora me interesa trabajar junto a una empresa.
+        Me especializo en Front End, desarrollando interfaces prolijas y simples con enfoque en diseños responsivos que garanticen que la página se vea bien en cualquier dispositivo.
+        También desarrollo en Back End y estoy aprendiendo frameworks para desarrollar aplicaciones de celular.
+        Soy hábil buscando información -como lo requiere el ser autodidacta-. Cuando no sé algo, busco recursos y lo aprendo. Hablo inglés y español (+estoy aprendiendo Mandarín).`,
     
         skills: 'Conocimientos',
         projects: 'Proyectos',

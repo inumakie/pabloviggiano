@@ -1,16 +1,12 @@
 const iconsData = {
-    frontend: [
+    tech: [
         {
             source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg",
-            name: "HTML5"
+            name: "HTML"
         },
         {
             source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg",
-            name: "CSS3"
-        },
-        {
-            source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
-            name: "Sass"
+            name: "CSS"
         },
         {
             source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
@@ -40,9 +36,6 @@ const iconsData = {
             source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
             name: "Next JS"
         },
-    ],
-
-    backend: [
         {
             source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
             name: "Node.js"
@@ -56,12 +49,28 @@ const iconsData = {
             name: "MongoDB"
         },
         {
+            source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+            name: "PHP"
+        },
+        {
+            source: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
+            name: "Laravel"
+        },
+        {
+            source: "https://www.svgrepo.com/show/303251/mysql-logo.svg",
+            name: "MySQL"
+        },
+        {
             source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg",
             name: "Firebase"
         },
         {
-            source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
-            name: "PHP"
+            source: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/768px-GraphQL_Logo.svg.png",
+            name: "GraphQL"
+        },
+        {
+            source: "https://www.svgrepo.com/show/349342/docker.svg",
+            name: "docker"
         },
         {
             source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg",
@@ -71,7 +80,7 @@ const iconsData = {
             source: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg",
             name: "GitHub"
         },
-    ]
+    ],
 }
 
 export default iconsData;

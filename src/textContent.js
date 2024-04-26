@@ -6,10 +6,13 @@ const textContent = {
       nav4: 'contact',
   
       about: 'About me',
-      aboutText: `I am a self-taught full stack web developer from Buenos Aires, Argentina.
-      I have 2 years of experience as a freelance developer and now I'm looking forwards to working with a company.
-      I specialize in frontEnd, building clean + simple user interfaces based on responsive design which makes the content look good on any screen size. I also know Back End technologies and I'm currently learning frameworks for building Mobile apps.
-      I'm skilled at research -as self-learning requires- so, when I don't know something, I go find resources and learn it. I speak English and Spanish (+ currently learning Mandarin).`,
+      aboutText: `I'm a self-taught web developer from Buenos Aires, Argentina.
+
+      With over 3 years of experience as a freelance full-stack developer, I am now looking to work within a company. My experience includes web design, development, testing, and hosting.
+      
+      On the front-end, I focus on modern and intuitive interfaces using responsive design to ensure the content adapts to users' screen sizes. On the back-end, I specialize in optimizing performance and ensuring swift response times.
+      
+      Currently, I am learning React Native and animation libraries.`,
   
       skills: 'Skills',
       projects: 'Projects',
@@ -20,12 +23,21 @@ const textContent = {
       projectsData: [
         {
             name: 'ONLINE STORE',
-            desc: `A complete online store with cart, payment and checkout functionality. The owner can edit the products, payment and shipping options using commerce.js' simple store editor. you can make a fake purchase using the numbers "42" repeatedly for all the card info (& any address data).`,
+            desc: `A tech e-commerce with cart, payment and checkout functionalities. The owner can edit the products, payment and shipping options using commerce.js' simple store editor. You can make a fake purchase using the numbers "42" repeatedly for all the card info (& any address data).`,
             tech: ["HTML5", "CSS3", "JavaScript", "React.js", "MaterialUI", "styled-components", "stripe API", "commerce.js"],
             src: "./assets/yuestore.png",
             link: "https://yuestore.netlify.app/",
             repo: "https://github.com/inumakie/yuestore",
             imagePosition: "h-full w-full object-cover object-left-top",
+        },
+        {
+            name: 'JOB POSTINGS SITE',
+            desc: `A site where users can search for IT jobs or post job offers. Functionality includes user registration, authentication and managing job offers.`,
+            tech: ["php", "laravel", "MySQL", "JavaScript", "tailwindcss"],
+            src: "./assets/devgigs.png",
+            link: "https://joblistings-production.up.railway.app/",
+            repo: "https://github.com/inumakie/joblistings",
+            imagePosition: "h-full w-full object-cover object-center",
         },
         {
             name: 'IP TRACKER',
@@ -45,15 +57,6 @@ const textContent = {
             repo: "https://github.com/inumakie/fylo-landing-page",
             imagePosition: "h-full w-full object-cover object-left-top",
         },
-        {
-            name: 'SUBSCRIPTION PAGE',
-            desc: `A simple responsive subscription page.`,
-            tech: ["HTML5", "CSS3", "JavaScript"],
-            src: "./assets/baseapparel.png",
-            link: "https://inumakie.github.io/comingsoonpage/",
-            repo: "https://github.com/inumakie/comingsoonpage",
-            imagePosition: "h-full w-full object-cover object-left-top",
-        },
       ],
 
 
@@ -67,11 +70,14 @@ const textContent = {
         nav4: 'contacto',
     
         about: 'Sobre mi',
-        aboutText: `Soy un programador full stack autodidacta de Buenos Aires, Argentina.
-        Tengo 2 años de experiencia como desarrollador web freelance y ahora me interesa trabajar junto a una empresa.
-        Me especializo en Front End, desarrollando interfaces prolijas y simples con enfoque en diseños responsivos que garanticen que la página se vea bien en cualquier dispositivo.
-        También desarrollo en Back End y estoy aprendiendo frameworks para desarrollar aplicaciones de celular.
-        Soy hábil buscando información -como lo requiere el ser autodidacta-. Cuando no sé algo, busco recursos y lo aprendo. Hablo inglés y español (+estoy aprendiendo Mandarín).`,
+        aboutText: `Soy un desarrollador web full-stack de Buenos Aires, Argentina.
+
+        Con más de 3 años de experiencia como desarrollador freelance, ahora busco trabajar dentro de una empresa. Mi experiencia incluye diseño web, desarrollo, testing y hosting.
+        
+        En front-end, construyo interfaces modernas e intuitivas, usando diseño responsive para asegurar que el contenido se adapte al tamaño de pantalla del usuario. En back-end, me especializo en optimizar el rendimiento para garantizar tiempos de respuesta fluidos.
+        
+        Estoy aprendiendo React Native y librerías de animación.
+        `,
     
         skills: 'Conocimientos',
         projects: 'Proyectos',
@@ -93,6 +99,15 @@ const textContent = {
               imagePosition: "h-full w-full object-cover object-left-top",
           },
           {
+            name: 'TABLERO DE EMPLEOS',
+            desc: `Un sitio en donde los usuarios pueden buscar trabajos de IT o publicar empleos. La funcionalidad incluye registro, autenticación de usuario y edición de publicaciones.`,
+            tech: ["php", "laravel", "MySQL", "JavaScript", "tailwindcss"],
+            src: "./assets/devgigs.png",
+            link: "https://joblistings-production.up.railway.app/",
+            repo: "https://github.com/inumakie/joblistings",
+            imagePosition: "h-full w-full object-cover object-center",
+          },
+          {
               name: 'RASTREADOR IP',
               desc: `Una web app responsive en la que puedes buscar cualquier dirección IP (o dejar el campo vacío para usar tu propia IP) y ver la ubicación aproximada en un mapa junto a algunos otros datos asociados a esa dirección IP.`,
               tech: ["HTML5", "CSS3", "JavaScript", "Leaflet API", "GeoIP API"],
@@ -102,23 +117,14 @@ const textContent = {
               imagePosition: "h-full w-full object-cover object-center",
           },
           {
-              name: 'PÁGINA PRINCIPAL',
-              desc: `Página principal responsive con información de empresa, tarjetas de citas, formulario de suscripción y sección de contacto`,
+              name: 'LANDING PAGE',
+              desc: `Landing page responsive con información de empresa, tarjetas de citas, formulario de suscripción y sección de contacto.`,
               tech: ["HTML5", "CSS3", "JavaScript"],
               src: "./assets/fylo.png",
               link: "https://inumakie.github.io/fylo-landing-page/",
               repo: "https://github.com/inumakie/fylo-landing-page",
               imagePosition: "h-full w-full object-cover object-left-top",
-          },
-          {
-              name: 'PÁGINA DE SUSCRIPCIÓN',
-              desc: `Página de suscripción responsive.`,
-              tech: ["HTML5", "CSS3", "JavaScript"],
-              src: "./assets/baseapparel.png",
-              link: "https://inumakie.github.io/comingsoonpage/",
-              repo: "https://github.com/inumakie/comingsoonpage",
-              imagePosition: "h-full w-full object-cover object-left-top",
-          },
+          }
         ],
   
     }

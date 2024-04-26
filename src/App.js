@@ -47,7 +47,7 @@ function App() {
 
   return (
 
-    <div className="bg-gray-300 flex flex-col items-center gap-10 dark:bg-gray-900 bg:text-neutral-200" id="maincontent">
+    <div className="bg-gray-400 flex flex-col items-center gap-10 dark:bg-gray-900 bg:text-neutral-200" id="maincontent">
     <img src={arrow} alt="" className='bg-orange-300 rounded-full p-2 h-10 fixed right-10 bottom-10 hover:cursor-pointer' onClick={() => {window.scrollTo(0, 0)}}/>
 
 
@@ -78,9 +78,9 @@ function App() {
     {/* -------------------- ABOUT -------------------- */}
 
       <section id="about" className='mb:w-full md:w-2/3 flex flex-col items-center my-20'>
-        <h1 className= "font-bold text-orange-600 text-center text-4xl p-5">Pablo Sebastian Viggiano</h1>
+        <h1 className= "font-bold text-orange-700 dark:text-slate-400 text-center text-4xl p-5">Pablo Sebastian Viggiano</h1>
         <img src={pablo} alt="" className="rounded-full w-52 center p-6"/>
-        <p className="bg-neutral-200 rounded-lg text-left mb:p-10 md:p-20 dark:bg-slate-700 dark:text-neutral-100">
+        <p className="bg-neutral-200 rounded-lg text-left mb:p-10 md:p-20 dark:bg-slate-700 dark:text-neutral-100" style={{ whiteSpace: 'pre-line' }}>
             {texts.aboutText}
         </p>
       </section>
@@ -90,21 +90,16 @@ function App() {
 
       <section id="knowledge" className='mb:full md:w-3/4 rounded-lg bg-neutral-200 dark:bg-slate-400 mb-20'>
 
-        <h1 className='bg-orange-200 font-bold text-orange-600 text-center text-4xl p-5 dark:bg-slate-800'>{texts.skills}</h1>
+        <h1 className='bg-slate-900 font-bold text-white text-right text-lg tracking-widest p-5 dark:bg-slate-800 uppercase'>{texts.skills}</h1>
 
         <div className='flex justify-around'>
-          <div className='w-1/2 p-5'>
-            <h2 className='font-bold text-center text-orange-600 p-4'>Front end</h2>
-            {iconsData.frontend.map(icon => 
-              <img className='h-16 m-5 inline' src={icon.source} alt="" title={icon.name} key={icon.name} />
-            )}
-          </div>
-          
-          <div className='w-1/2 p-5'>
-            <h2 className='font-bold text-center text-orange-600 p-4'>Back end</h2>
-            {iconsData.backend.map(icon => 
-              <img className='h-16 m-5 inline' src={icon.source} alt="" title={icon.name} key={icon.name} />
-            )}
+          <div className='w-10/12 p-5 flex flex-wrap justify-center'>
+            {iconsData.tech.map(icon => (
+              <div className='flex flex-col items-center bg-slate-300 m-2 rounded-md' key={icon.name}>
+                <img className='h-16 m-5 inline' src={icon.source} alt={icon.name} title={icon.name} />
+                <p className='mb-2'>{icon.name}</p>
+              </div>
+            ))}
           </div>
         </div>
   
@@ -116,9 +111,9 @@ function App() {
 
       <section id="projects" className='flex flex-col mb-20'>
 
-        <h1 className='bg-orange-200 font-bold text-orange-600 text-center text-4xl p-5 dark:bg-slate-800'>{texts.projects}</h1>
+        <h1 className='bg-slate-900 font-bold text-white text-left text-lg tracking-widest uppercase p-5 dark:bg-slate-800'>{texts.projects}</h1>
 
-        <div className='h-fit flex flex-col items-center justify-around bg-violet-400 dark:bg-gray-900 mb:gap-10 md:gap-0'>
+        <div className='h-fit flex flex-col items-center justify-around bg-purple-300 dark:bg-gray-900 mb:gap-10 md:gap-0'>
         {
           texts.projectsData.map(item =>(
 
@@ -160,11 +155,11 @@ function App() {
       {/* -------------------- CONTACT FORM -------------------- */}
 
       <section id="contact" className='w-full flex flex-col items-center mb-10'>
-        <h2 className="mb:w-full md:w-2/3 bg-orange-100 font-bold text-orange-600 text-center text-4xl p-5 dark:bg-slate-800">{texts.contact}</h2>
+        <h2 className="mb:w-full md:w-2/3 bg-slate-900 font-bold text-white text-right uppercase text-lg tracking-widest p-5 dark:bg-slate-800">{texts.contact}</h2>
 
         <div className='flex mb:w-full md:w-2/3 mb:flex-col md:flex-row'>
           <form action="https://formsubmit.co/pablosebastianviggiano@gmail.com" method="POST"
-          className='mb:w-full md:w-1/2 bg-neutral-200 dark:bg-neutral-600 flex flex-col items-center p-5 gap-4 content-center'>
+          className='mb:w-full md:w-1/2 bg-slate-500 dark:bg-neutral-600 flex flex-col items-center p-5 gap-4 content-center'>
             <label htmlFor="name"></label>
             <input type="text" name="name" placeholder="name" required className='w-2/3 h-10 p-2 rounded'/>
 
@@ -174,17 +169,17 @@ function App() {
             <label htmlFor="text"></label>
             <textarea name="text" placeholder="message" className='w-2/3 h-20 p-2 rounded'></textarea>
             
-            <button type="submit" className='bg-orange-500 w-fit p-4' title={"Go to CAPTCHA and send"}>send</button>
+            <button type="submit" className='bg-orange-400 w-fit p-4' title={"Go to CAPTCHA and send"}>send</button>
           </form>
 
           {/* -------------------- CONTACT LINKS -------------------- */}
 
           <div className='mb:w-full md:w-1/2 bg-neutral-300 dark:bg-neutral-700 dark:text-neutral-200'>
-            <ul className='h-full flex flex-col justify-center'>
+            <ul className='h-full flex flex-col justify-center items-center'>
               <li>
                 <div className='flex items-center hover:cursor-pointer' title={"click to copy"} onClick={() => {navigator.clipboard.writeText("pablosebastianviggiano@gmail.com")}}>
                   <img src={email} className='h-8 m-5' alt="" />
-                  <p className='text-xs md:text-base'>pablosebastianviggiano@gmail.com</p><img src={link} alt="" className='h-5 m-2'/>
+                  <p className='text-xs md:text-base'>Click to copy</p>
                 </div>
               </li>
 

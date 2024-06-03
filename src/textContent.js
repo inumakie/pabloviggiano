@@ -8,11 +8,12 @@ const textContent = {
       about: 'About me',
       aboutText: `I'm a self-taught web developer from Buenos Aires, Argentina.
 
-      With over 3 years of experience as a freelance full-stack developer, I am now looking to work within a company. My experience includes web design, development, testing, and hosting.
+      My experience includes developing landing pages, complete websites, e-commerce sites, and custom management tools.
       
-      On the front-end, I focus on modern and intuitive interfaces using responsive design to ensure the content adapts to users' screen sizes. On the back-end, I specialize in optimizing performance and ensuring swift response times.
+      I mainly work on Frontend, ensuring responsive design and client-side performance optimizations. I also have experience in Backend, developing business logic, APIs, authentication, database connection and configuration, among other things. Beyond development, I have experience in design, testing, deploying, and hosting, as well as devops tools (containers, cloud services, pipeline configuration).
       
-      Currently, I am learning React Native and animation libraries.`,
+      I studied programming in a self-taught manner, so I quickly adapt to new technologies and environments. I speak English and Spanish.`,
+      
   
       skills: 'Skills',
       projects: 'Projects',
@@ -72,11 +73,13 @@ const textContent = {
         about: 'Sobre mi',
         aboutText: `Soy un desarrollador web full-stack de Buenos Aires, Argentina.
 
-        Con más de 3 años de experiencia como desarrollador freelance, ahora busco trabajar dentro de una empresa. Mi experiencia incluye diseño web, desarrollo, testing y hosting.
+        Mi experiencia incluye desarrollo de landing pages, webs completas, sitios e-commerce y
+        herramientas personalizadas de gestion.
         
-        En front-end, construyo interfaces modernas e intuitivas, usando diseño responsive para asegurar que el contenido se adapte al tamaño de pantalla del usuario. En back-end, me especializo en optimizar el rendimiento para garantizar tiempos de respuesta fluidos.
-        
-        Estoy aprendiendo React Native y librerías de animación.
+        Trabajo principalmente en Frontend, garantizando diseño responsive y optimizaciones de performance del lado del cliente. También tengo experiencia en Backend, desarrollando lógica de negocios, APIs, autenticación, conexión y configuración de base de datos, entre otras cosas. Por fuera del desarrollo, tengo experiencia en diseño, testing, deploying y hosting, así como herramientas devops (containers, servicios cloud, configuración de pipelines).
+
+        Estudie programación de manera autodidacta, por lo que me adapto rápidamente a nuevas
+        tecnologías y entornos.
         `,
     
         skills: 'Conocimientos',

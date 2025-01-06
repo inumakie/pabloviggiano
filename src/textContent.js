@@ -24,11 +24,11 @@ const textContent = {
       projectsData: [
         {
             name: 'ONLINE STORE',
-            desc: `A tech e-commerce with cart, payment and checkout functionalities. The owner can edit the products, payment and shipping options using commerce.js' simple store editor. You can make a fake purchase using the numbers "42" repeatedly for all the card info (& any address data).`,
-            tech: ["HTML5", "CSS3", "JavaScript", "React.js", "MaterialUI", "styled-components", "stripe API", "commerce.js"],
+            desc: `An online store with cart and order processing functionality.`,
+            tech: ["PHP", "MySQL", "jQuery", "HTML5", "CSS3", "JavaScript"],
             src: "./assets/yuestore.png",
-            link: "https://yuestore.netlify.app/",
-            repo: "https://github.com/inumakie/yuestore",
+            link: "https://targetmodaweb.com/",
+            repo: "https://github.com/inumakie/targetmoda",
             imagePosition: "h-full w-full object-cover object-left-top",
         },
         {
@@ -91,14 +91,11 @@ const textContent = {
         projectsData: [
           {
               name: 'TIENDA ONLINE',
-              desc: `Una tienda online con funcionalidad de carrito, procesamiento de orden y pagos. El administrador puede editar los productos, opciones de pago y de envío mediante su cuenta
-              en la página de commerce.js. Puedes probar el sitio haciendo una compra falsa ingresando
-              cualquier dato en los datos personales y usando '42' repetidamente para la información
-              de la tarjeta de crédito.`,
-              tech: ["HTML5", "CSS3", "JavaScript", "React.js", "MaterialUI", "styled-components", "stripe API", "commerce.js"],
-              src: "./assets/yuestore.png",
+              desc: `Una tienda online con funcionalidad de carrito y procesamiento de pedidos.`,
+              tech: ["PHP", "MySQL", "jQuery", "HTML5", "CSS3", "JavaScript"],
+              link: "https://targetmodaweb.com/",
               link: "https://yuestore.netlify.app/",
-              repo: "https://github.com/inumakie/yuestore",
+              repo: "https://github.com/inumakie/targetmoda",
               imagePosition: "h-full w-full object-cover object-left-top",
           },
           {
